@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+pillow>=9.0
+jupyterlab>=4.0
+# opcionales: GPU y gráficos interactivos (fases 3 y 5)
+# jax[cuda12]
+# cupy-cuda12x
+# plotly>=5.0
