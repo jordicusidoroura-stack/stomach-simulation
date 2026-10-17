@@ -12,9 +12,9 @@ Simulación de la digestión gástrica en Python, construida en **siete fases**:
 - el **vaciado** por el píloro.
 
 <p align="center">
-  <img src="media/fase7/03_digestion_2D.gif" width="820" alt="Película de 4 h de digestión: ingesta, peristalsis y dilución progresiva de la comida">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase7/03_digestion_2D.gif" width="820" alt="Película de 4 h de digestión: ingesta, peristalsis y dilución progresiva de la comida">
 </p>
-<p align="center"><em>Fase 7: cuatro horas de digestión de la comida de consenso. Izquierda: fracción de comida en el líquido (dilución). Derecha: pH local. Puntos: partículas de comida (color y tamaño = diámetro). <a href="media/fase7/03_digestion_2D.mp4">Versión MP4</a>.</em></p>
+<p align="center"><em>Fase 7: cuatro horas de digestión de la comida de consenso. Izquierda: fracción de comida en el líquido (dilución). Derecha: pH local. Puntos: partículas de comida (color y tamaño = diámetro). <a href="https://github.com/jordicusidoroura-stack/stomach-simulation/blob/main/media/fase7/03_digestion_2D.mp4">Versión MP4</a>.</em></p>
 
 ---
 
@@ -177,8 +177,8 @@ e_{\Delta t/4} \approx \frac{\lVert y_{\Delta t/2} - y_{\Delta t/4}\rVert}{2^{p}
 $$
 
 <p align="center">
-  <img src="media/fase1/modelo_quimico_completo.png" width="49%" alt="Modelo químico completo">
-  <img src="media/fase1/convergencia_modelo_completo.png" width="49%" alt="Convergencia del modelo completo">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase1/modelo_quimico_completo.png" width="49%" alt="Modelo químico completo">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase1/convergencia_modelo_completo.png" width="49%" alt="Convergencia del modelo completo">
 </p>
 
 ### Lo que se aprende
@@ -188,7 +188,7 @@ $$
 - **Rigidez.** El tiempo característico de la neutralización es $\tau_b \sim 1/(k_b B_0) \approx 0{,}02$ min. Por encima de $\Delta t \approx 0{,}062$ min, RK4 se vuelve inestable. Lo más peligroso: con $\Delta t = 0{,}08$ la solución **no explota**, sino que converge a un estado *espurio* con pH ≈ 2,7. Es un resultado plausible y falso que solo el análisis de estabilidad delata.
 
 <p align="center">
-  <img src="media/fase1/rigidez_estabilidad.png" width="70%" alt="Rigidez y estabilidad: solución espuria">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase1/rigidez_estabilidad.png" width="70%" alt="Rigidez y estabilidad: solución espuria">
 </p>
 
 ---
@@ -242,10 +242,10 @@ $$
 | **Predicción** | 50 g de carne frente a 50 g de pan, con banda de incertidumbre (Monte Carlo LHS) |
 
 <p align="center">
-  <img src="media/fase1b/validacion_1a_1b.png" width="70%" alt="Validación de las versiones 1a y 1b">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase1b/validacion_1a_1b.png" width="70%" alt="Validación de las versiones 1a y 1b">
 </p>
 <p align="center">
-  <img src="media/fase1b/presupuesto_error.png" width="70%" alt="Presupuesto de error por métrica">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase1b/presupuesto_error.png" width="70%" alt="Presupuesto de error por métrica">
 </p>
 
 ### Lo que se aprende
@@ -305,7 +305,7 @@ $$
 - **Regresión**: con mezcla perfecta, el 2D reproduce exactamente el modelo 0D.
 
 <p align="center">
-  <img src="media/fase2/solucion_manufacturada_2D.png" width="80%" alt="Solución manufacturada 2D">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase2/solucion_manufacturada_2D.png" width="80%" alt="Solución manufacturada 2D">
 </p>
 
 ### Lo que se aprende
@@ -316,11 +316,11 @@ $$
 - $D_\text{mix}$ es la principal incertidumbre de esta fase. Con $D_\text{mix}$ pequeño, el Péclet de celda es alto y parte de la mezcla que se ve es **numérica**. La fase 3 sirve para acotar este parámetro.
 
 <p align="center">
-  <img src="media/fase2/frente_acido_1D.png" width="49%" alt="Frente ácido 1D">
-  <img src="media/fase2/bolo_carne_2D.png" width="49%" alt="Bolo de carne en 2D">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase2/frente_acido_1D.png" width="49%" alt="Frente ácido 1D">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase2/bolo_carne_2D.png" width="49%" alt="Bolo de carne en 2D">
 </p>
 <p align="center">
-  <img src="media/fase2/sensibilidad_Dmix.png" width="65%" alt="Sensibilidad al cierre de mezcla">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase2/sensibilidad_Dmix.png" width="65%" alt="Sensibilidad al cierre de mezcla">
 </p>
 
 ---
@@ -393,10 +393,10 @@ $$
 $$
 
 <p align="center">
-  <img src="media/fase3/poiseuille_couette_taylorgreen.png" width="80%" alt="Poiseuille, Couette y Taylor–Green">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase3/poiseuille_couette_taylorgreen.png" width="80%" alt="Poiseuille, Couette y Taylor–Green">
 </p>
 <p align="center">
-  <img src="media/fase3/shapiro_bombeo_peristaltico.png" width="60%" alt="Bombeo peristáltico frente a Shapiro">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase3/shapiro_bombeo_peristaltico.png" width="60%" alt="Bombeo peristáltico frente a Shapiro">
 </p>
 
 ### El antro
@@ -413,11 +413,11 @@ $$
 - **Mezcla medida con trazadores**: $D_\text{ef}$ axial de 0,2–0,36 cm²/min, del orden del $D_\text{mix}$ que la fase 2 tuvo que suponer.
 
 <p align="center">
-  <img src="media/fase3/antro_onda_completa.png" width="85%" alt="El antro en una onda completa">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase3/antro_onda_completa.png" width="85%" alt="El antro en una onda completa">
 </p>
 <p align="center">
-  <img src="media/fase3/chorro_retropulsivo.png" width="49%" alt="Chorro retropulsivo">
-  <img src="media/fase3/trazadores_mezcla.png" width="49%" alt="Trazadores">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase3/chorro_retropulsivo.png" width="49%" alt="Chorro retropulsivo">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase3/trazadores_mezcla.png" width="49%" alt="Trazadores">
 </p>
 
 ---
@@ -489,8 +489,8 @@ Dos implementaciones independientes resuelven las mismas leyes: **Monte Carlo la
 - El Monte Carlo y el balance de poblaciones coinciden en la retención con 1,3 puntos de diferencia.
 
 <p align="center">
-  <img src="media/fase4/rotura_poisson.png" width="49%" alt="Rotura frente a Poisson">
-  <img src="media/fase4/montecarlo_vs_pbm.png" width="49%" alt="Monte Carlo frente a balance de poblaciones">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase4/rotura_poisson.png" width="49%" alt="Rotura frente a Poisson">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase4/montecarlo_vs_pbm.png" width="49%" alt="Monte Carlo frente a balance de poblaciones">
 </p>
 
 ### Lo que se aprende
@@ -501,10 +501,10 @@ Dos implementaciones independientes resuelven las mismas leyes: **Monte Carlo la
 - **El ácido acelera la trituración**: a 2 h quedan retenidos 24 % con debilitamiento ácido y 32 % sin él.
 
 <p align="center">
-  <img src="media/fase4/validacion_criba.png" width="85%" alt="Validación de la criba pilórica">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase4/validacion_criba.png" width="85%" alt="Validación de la criba pilórica">
 </p>
 <p align="center">
-  <img src="media/fase4/error_1b_vs_4.png" width="70%" alt="Error de modelo: fase 1b frente a fase 4">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase4/error_1b_vs_4.png" width="70%" alt="Error de modelo: fase 1b frente a fase 4">
 </p>
 
 ---
@@ -530,14 +530,14 @@ Q = \tfrac12\big(\lVert\boldsymbol\Omega\rVert^2 - \lVert\mathbf S\rVert^2\big)
 $$
 
 <p align="center">
-  <img src="media/fase5/01_cuatro_maneras.png" width="80%" alt="El mismo instante contado de cuatro maneras">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase5/01_cuatro_maneras.png" width="80%" alt="El mismo instante contado de cuatro maneras">
 </p>
 <p align="center">
-  <img src="media/fase5/A2_vorticidad_particulas.gif" width="49%" alt="Vorticidad con partículas">
-  <img src="media/fase5/A1_flujo.gif" width="49%" alt="Rapidez y dirección del flujo">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase5/A2_vorticidad_particulas.gif" width="49%" alt="Vorticidad con partículas">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase5/A1_flujo.gif" width="49%" alt="Rapidez y dirección del flujo">
 </p>
 <p align="center">
-  <img src="media/fase5/03_espacio_tiempo.png" width="80%" alt="Diagramas espacio–tiempo">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase5/03_espacio_tiempo.png" width="80%" alt="Diagramas espacio–tiempo">
 </p>
 
 ---
@@ -565,7 +565,7 @@ $$
 Se calibra **un solo factor**, `escala_D` ≈ 2, con la propia escala rápida y sin datos clínicos. Después se comprueba con un dato que no se usó para calibrar.
 
 <p align="center">
-  <img src="media/fase6/00_arquitectura.png" width="85%" alt="Arquitectura del modelo integrado">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase6/00_arquitectura.png" width="85%" alt="Arquitectura del modelo integrado">
 </p>
 
 ### Ecuaciones del bucle lento
@@ -613,13 +613,13 @@ Cada partícula se ablanda con el **pH de su celda**, se rompe a la frecuencia $
 | V5 discretización: malla 40 × 16 y $\Delta t/2$ | ≤ 4,1 puntos de retención (criterio < 8) |
 
 <p align="center">
-  <img src="media/fase6/02_instantaneas.png" width="90%" alt="Instantáneas del modelo integrado">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase6/02_instantaneas.png" width="90%" alt="Instantáneas del modelo integrado">
 </p>
 <p align="center">
-  <img src="media/fase6/03_series.png" width="90%" alt="Series temporales del modelo integrado">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase6/03_series.png" width="90%" alt="Series temporales del modelo integrado">
 </p>
 <p align="center">
-  <img src="media/fase6/04_digestion.gif" width="70%" alt="Animación del modelo integrado">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase6/04_digestion.gif" width="70%" alt="Animación del modelo integrado">
 </p>
 
 ---
@@ -661,10 +661,10 @@ $$
 - $\phi$ son las **ondas peristálticas**, con los mismos parámetros que el LBM: 0,25 cm/s, periodo de 20 s y amplitud que crece de $x = 4{,}5$ a $x = 6{,}5$ cm.
 
 <p align="center">
-  <img src="media/fase7/01_geometria.png" width="85%" alt="Geometría de la representación">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase7/01_geometria.png" width="85%" alt="Geometría de la representación">
 </p>
 <p align="center">
-  <img src="media/fase7/02_momentos.png" width="95%" alt="Ocho momentos clave de la digestión">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase7/02_momentos.png" width="95%" alt="Ocho momentos clave de la digestión">
 </p>
 
 ### Lo que muestra la película
@@ -675,7 +675,7 @@ $$
 4. **Final.** Queda jugo ácido y un resto de partículas que se vacían despacio.
 
 <p align="center">
-  <img src="media/fase7/04_series.png" width="90%" alt="Series de volumen, dilución y pH">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase7/04_series.png" width="90%" alt="Series de volumen, dilución y pH">
 </p>
 
 ---
@@ -695,7 +695,7 @@ Estas son las mismas cinco métricas clínicas para las cuatro versiones del mod
 | **Error de modelo normalizado (media)** | | 0,370 | 0,206 | 0,064 | **0,055** |
 
 <p align="center">
-  <img src="media/fase6/05_comparacion.png" width="85%" alt="Comparación de versiones del modelo">
+  <img src="https://raw.githubusercontent.com/jordicusidoroura-stack/stomach-simulation/main/media/fase6/05_comparacion.png" width="85%" alt="Comparación de versiones del modelo">
 </p>
 
 **Respuesta a la pregunta de investigación.**
